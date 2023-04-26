@@ -1,0 +1,64 @@
+body {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  background-image: url("LCPV1537_crop.JPG");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  height: 100vh;
+}
+.margin-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 1500px;
+  height: 100%;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+.quote-container,
+.statement-container {
+  flex: 1;
+}
+.quote-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* margin-bottom: 5rem; */
+}
+.quote {
+  font-size: 2.5rem;
+}
+.author {
+  font-size: 1.25rem;
+  margin-top: 1rem;
+}
+.statement-container {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  align-self: end;
+  justify-content: end;
+  width: 50%;
+  margin-bottom: 1rem;
+}
+.fname,
+.lname {
+  align-self: start;
+  font-size: 4rem;
+  line-height: 3rem;
+}
+.fname,
+.statement {
+  color: rgba(255, 255, 255, 0.75);
+}
+.lname {
+  color: rgba(118, 226, 226, 0.75);
+  margin-left: 3rem;
+  margin-bottom: 1rem;
+}
+.statement {
+  font-size: 1.25rem;
+  line-height: 2.25rem;
+}
