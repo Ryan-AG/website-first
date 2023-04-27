@@ -25,13 +25,13 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  /* margin-bottom: 5rem; */
+  margin-bottom: 5rem;
 }
 .quote {
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 .author {
-  font-size: 1.25rem;
+  font-size: 1rem;
   margin-top: 1rem;
 }
 .statement-container {
@@ -41,13 +41,13 @@ body {
   align-self: end;
   justify-content: end;
   width: 50%;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 .fname,
 .lname {
   align-self: start;
-  font-size: 4rem;
-  line-height: 3rem;
+  font-size: 3rem;
+  line-height: 2.15rem;
 }
 .fname,
 .statement {
@@ -55,10 +55,27 @@ body {
 }
 .lname {
   color: rgba(118, 226, 226, 0.75);
-  margin-left: 3rem;
-  margin-bottom: 1rem;
+  margin-left: 2.35rem;
+  margin-bottom: 0.5rem;
 }
 .statement {
-  font-size: 1.25rem;
-  line-height: 2.25rem;
+  font-size: 1rem;
+  line-height: 1.6rem;
+}
+
+@media screen and (min-width: 2000px) {
+  .statement {
+    font-size: 1.25rem;
+  }
+  .statement-container {
+    margin-bottom: 7rem;
+  }
+  .fname,
+  .lname {
+    font-size: 4rem;
+    line-height: 3rem;
+  }
+  .lname {
+    margin-left: 3rem;
+  }
 }
