@@ -97,7 +97,7 @@ body {
   opacity: 0.5;
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 768px) {
   #background-id {
     background-image: url("small-background.png");
     background-size: cover;
