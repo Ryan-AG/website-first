@@ -1,9 +1,9 @@
 .nav-bar {
   display: flex;
   justify-content: space-between;
-  margin: 1rem 0;
   margin-left: 1rem;
   margin-right: 1rem;
+  padding-top: 1rem;
 }
 
 .nav-left {
@@ -11,39 +11,31 @@
 }
 
 .logo-link {
+  display: flex;
   text-decoration: none;
+  font-family: Montserrat;
+  font-weight: 300;
 }
 
 .nav-logo {
   display: flex;
   align-items: center;
-  border-style: solid;
-  border-width: 2px;
   font-size: 2rem;
-  padding: 0 0.375rem;
-  height: 3.25rem;
 }
 
-.nav-name-title {
+.nav-title {
   display: flex;
   flex-direction: column;
   margin-left: 0.5rem;
   justify-content: center;
+  /* font-family: Montserrat;
+  font-weight: 500; */
 }
 
 .nav-logo,
 .nav-name,
 .nav-title {
   color: #333333;
-}
-
-.nav-name {
-  font-size: 1.25rem;
-  margin-bottom: 0.5rem;
-}
-
-.nav-title {
-  font-size: 1rem;
 }
 
 .nav-bar ul {
