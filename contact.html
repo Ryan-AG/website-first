@@ -4,14 +4,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/styles/normalize.css" />
-    <link rel="stylesheet" href="/styles/general.css" />
-    <link rel="stylesheet" href="/styles/nav.css" />
-    <link rel="stylesheet" href="/styles/contact.css" />
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="styles/general.css" />
+    <link rel="stylesheet" href="styles/nav.css" />
+    <link rel="stylesheet" href="styles/contact.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&family=Noto+Sans:wght@300;400;500&family=PT+Sans&family=Roboto:wght@100;300;400;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600&family=Noto+Sans:wght@300;400;500&family=PT+Sans&family=Roboto:wght@100;300;400;700&display=swap"
       rel="stylesheet"
     />
     <title>Ryan Granet - About Me</title>
@@ -36,9 +36,68 @@
       <!-- MAIN -->
       <div class="break"></div>
       <div class="main-div">
-        <div class="under-construction">
-          <img src="/resources/construction_2.png" alt="" />
+        <!-- <div class="under-construction">
+          <img src="resources/construction_2.png" alt="" />
           <p>Coming Soon!</p>
+        </div> -->
+        <div class="nav-logo" id="contact-logo">RG</div>
+        <form
+          action="https://formsubmit.co/granet.ry@gmail.com"
+          method="post"
+          class="form-container"
+        >
+          <div class="form-input">
+            <input
+              type="text"
+              name="name"
+              id="name"
+              required
+              placeholder="Name"
+            />
+          </div>
+
+          <div class="form-input">
+            <input
+              type="text"
+              name="email"
+              id="email"
+              required
+              placeholder="Email"
+            />
+          </div>
+
+          <div class="form-input">
+            <textarea
+              name="message"
+              id="message"
+              placeholder="Message"
+              required
+            ></textarea>
+          </div>
+
+          <div>
+            <input type="hidden" name="_next" value="https://ryangranet.com" />
+            <input type="hidden" name="_template" value="table" />
+            <input type="hidden" name="_captcha" value="false" />
+          </div>
+
+          <br />
+
+          <div class="submit-div">
+            <button type="submit" class="submit-button">Send</button>
+          </div>
+        </form>
+
+        <div class="social-div">
+          <a href="https://www.instagram.com/ryangranet/" target="_blank"
+            ><img src="/resources/ig-logo.png" alt="" class="ig"
+          /></a>
+          <a
+            href="https://www.linkedin.com/in/ryan-granet-88b017134/"
+            target="_blank"
+          >
+            <img src="/resources/linked.png" alt="" class="linkedin" />
+          </a>
         </div>
       </div>
     </div>

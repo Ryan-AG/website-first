@@ -27,16 +27,8 @@
   width: 100%;
 }
 
-.msu-logo,
-.linkedin-logo {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
-}
-
-.linkedin-logo {
-  margin-left: 2rem;
+#logos {
+  margin-bottom: 2rem;
 }
 
 #logos,

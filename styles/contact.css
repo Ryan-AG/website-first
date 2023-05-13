@@ -1,3 +1,7 @@
+p {
+  margin: 0;
+}
+
 .main-div {
   display: flex;
   flex-direction: column;
@@ -5,14 +9,72 @@
   width: 100%;
 }
 
-.under-construction {
+.form-container {
+  max-width: 400px;
   width: 100%;
-  max-width: 800px;
-  text-align: center;
-  font-size: 3rem;
-  /* font-weight: 300; */
 }
 
-p {
-  margin: 0;
+.form-input {
+  margin-top: 1rem;
+}
+
+.form-input input,
+.form-input textarea {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  box-sizing: border-box;
+}
+
+.form-input textarea {
+  height: 100px;
+  padding-top: 1rem;
+}
+
+#contact-logo {
+  font-size: 7rem;
+  font-family: Montserrat;
+  font-weight: 100;
+  margin: 2rem 0;
+}
+
+.submit-div {
+  display: flex;
+  justify-content: end;
+  width: 100%;
+}
+
+.submit-button {
+  background-color: rgba(24, 69, 59, 0.75);
+  color: white;
+  border-style: none;
+  padding: 0.25rem 0.5rem;
+  transition: box-shadow 0.15s;
+}
+
+.submit-button:hover {
+  cursor: pointer;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.75);
+}
+
+.submit-button:active {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.social-div {
+  display: flex;
+  justify-content: end;
+  width: 100%;
+  height: 50px;
+  margin-top: 4rem;
+  max-width: 400px;
+}
+
+.ig {
+  height: 100%;
+  align-self: start;
+}
+
+.linkedin {
+  height: 100%;
+  margin-left: 1rem;
 }
